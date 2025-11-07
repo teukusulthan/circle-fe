@@ -71,7 +71,8 @@ export default function ThreadsList() {
     };
   }, [dispatch]);
 
-  if (loading) return <p className="p-4 text-zinc-400">Loading feed…</p>;
+  if (loading)
+    return <p className="p-4 text-center text-zinc-400">Loading feed…</p>;
   if (error) return <p className="p-4 text-center text-red-400">{error}</p>;
   if (!threads.length)
     return <p className="p-4 text-center text-zinc-400">No threads yet.</p>;

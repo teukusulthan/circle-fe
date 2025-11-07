@@ -74,10 +74,13 @@ export default function MyProfile() {
       </section>
 
       <main className="max-w-3xl mx-auto px-4">
-        <div className="pt-16 md:pt-20" />
+        <div className="pt-13" />
         <header>
           <h1 className="text-2xl font-semibold text-zinc-100">{me.name}</h1>
-          <p className="text-sm text-zinc-400">@{me.username}</p>
+          <p className="text-md text-zinc-400">@{me.username}</p>
+          <p className="text-md text-zinc-200 pt-4">
+            {me.bio ?? "No bio yet. Add something about yourself."}
+          </p>
         </header>
 
         <section className="mt-6 grid grid-cols-2 gap-3 sm:gap-4">
@@ -88,7 +91,7 @@ export default function MyProfile() {
         <section className="mt-8 mb-16">
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
             <p className="text-zinc-400 text-sm">
-              This is your profile page. Future contentcan live here.
+              This is your profile page. Future content can live here.
             </p>
           </div>
         </section>
@@ -100,6 +103,7 @@ export default function MyProfile() {
         initial={{
           name: me.name,
           username: me.username,
+          bio: me.bio ?? null,
           avatar: me.avatar ?? null,
           banner: me.banner ?? null,
         }}
