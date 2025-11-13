@@ -5,7 +5,7 @@ This repository contains the **frontend** app for Circle: the web client that ta
 
 ---
 
-## Features
+## ✨ Features
 
 - Authentication & user profiles (depends on backend)
 - Create, view, and delete threads
@@ -16,7 +16,7 @@ This repository contains the **frontend** app for Circle: the web client that ta
 
 ---
 
-## Tech Stack
+## 💿 Tech Stack
 
 - Next.js (React)
 - TypeScript
@@ -25,7 +25,7 @@ This repository contains the **frontend** app for Circle: the web client that ta
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone & Install
 
