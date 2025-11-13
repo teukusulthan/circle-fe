@@ -30,7 +30,7 @@ This repository contains the **frontend** app for Circle: the web client that ta
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/<your-username>/circle-frontend.git
+git clone https://github.com/teukusulthan/circle-fe
 cd circle-frontend
 npm install
 ```
@@ -50,4 +50,4 @@ VITE_WS_URL= <your-ws-url>
 npm run dev
 ```
 
-The app will be available at: http://localhost:<your-port>
+The app will be available at your localhost
